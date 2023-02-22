@@ -18,5 +18,6 @@ char *_strchr(char *s, char c);
 void print_environ(void);
 char *search_path(char *path);
 char **split_args(char *args);
+void myfunc(int ac, char *av[], char *envp[]);
 
 #endif /*MAIN_H*/
